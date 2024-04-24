@@ -1,0 +1,7 @@
+D:\OneDrive - Universidade Aberta\_ 3 - Semestre 2\LDS - Lab Desenvolvimento Software\Decktacular\bin\Debug\Decktacular.exe.config
+D:\OneDrive - Universidade Aberta\_ 3 - Semestre 2\LDS - Lab Desenvolvimento Software\Decktacular\bin\Debug\Decktacular.exe
+D:\OneDrive - Universidade Aberta\_ 3 - Semestre 2\LDS - Lab Desenvolvimento Software\Decktacular\bin\Debug\Decktacular.pdb
+D:\OneDrive - Universidade Aberta\_ 3 - Semestre 2\LDS - Lab Desenvolvimento Software\Decktacular\obj\Debug\Decktacular.csproj.AssemblyReference.cache
+D:\OneDrive - Universidade Aberta\_ 3 - Semestre 2\LDS - Lab Desenvolvimento Software\Decktacular\obj\Debug\Decktacular.csproj.CoreCompileInputs.cache
+D:\OneDrive - Universidade Aberta\_ 3 - Semestre 2\LDS - Lab Desenvolvimento Software\Decktacular\obj\Debug\Decktacular.exe
+D:\OneDrive - Universidade Aberta\_ 3 - Semestre 2\LDS - Lab Desenvolvimento Software\Decktacular\obj\Debug\Decktacular.pdb
