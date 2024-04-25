@@ -22,7 +22,7 @@ namespace Decktacular
 			Console.WriteLine("Carrega definicoes");
 			DefinicoesCarregadas?.Invoke();
 		}
-
+		 
 		internal void CriarNovoJogo()
 		{
 			Console.WriteLine("Cria novo jogo");
