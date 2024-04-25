@@ -37,7 +37,7 @@ namespace Decktacular
 
 		internal void NovoJogoCriado()
 		{
-			throw new NotImplementedException();
+			Console.WriteLine($"NovoJogoCriado");
 		}
 
 		internal void EstadoAtualizado()
