@@ -32,7 +32,7 @@ namespace Decktacular
 
 		internal void DefinicoesCarregadas()
 		{
-			throw new NotImplementedException();
+			Console.WriteLine("Definicoes carregadaas");
 		}
 
 		internal void NovoJogoCriado()
