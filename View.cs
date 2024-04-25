@@ -42,7 +42,7 @@ namespace Decktacular
 
 		internal void EstadoAtualizado()
 		{
-			throw new NotImplementedException();
+			Console.WriteLine("Estado atualizado");
 		}
 	}
 }
