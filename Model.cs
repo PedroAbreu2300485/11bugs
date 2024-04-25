@@ -19,7 +19,7 @@ namespace Decktacular
 
 		internal void CarregarDefinicoes()
 		{
-			throw new NotImplementedException();
+			Console.WriteLine("Crrega definicoes");
 		}
 
 		internal void CriarNovoJogo()
