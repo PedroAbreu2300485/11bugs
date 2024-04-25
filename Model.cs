@@ -16,20 +16,21 @@ namespace Decktacular
 		public event Notificar JogoGravado;
 
 		public event Notificar EstatisticasGravadas;
-
+		// Carregar definicoes
 		internal void CarregarDefinicoes()
 		{
-			Console.WriteLine("Crrega definicoes");
+			Console.WriteLine("Carrega definicoes");
+			DefinicoesCarregadas?.Invoke();
 		}
 
 		internal void CriarNovoJogo()
 		{
-			throw new NotImplementedException();
+			Console.WriteLine("Cria novo jogo");
 		}
 
 		internal void CartaClicada(int numCarta)
 		{
-			throw new NotImplementedException();
+			
 		}
 
 		internal void CartaLargada(int numCarta)
