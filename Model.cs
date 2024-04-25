@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Decktacular
 {
+	//Descrição da Classe:
 	class Model
 	{
 		public delegate void Notificar();
