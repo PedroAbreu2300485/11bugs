@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Decktacular
 {
-	// teste
+	// teste bruno
 	public delegate void Carta(int numCarta);
 	class View
 	{
