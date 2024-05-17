@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace Decktacular
 {
-	// teste bruno
 	public delegate void Carta(int numCarta);
 	class View
 	{
@@ -38,7 +37,7 @@ namespace Decktacular
 
 		internal void NovoJogoCriado()
 		{
-			Console.WriteLine($"NovoJogoCriado");
+			Console.WriteLine("NovoJogoCriado");
 		}
 
 		internal void EstadoAtualizado()

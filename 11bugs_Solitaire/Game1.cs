@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using Decktacular;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
@@ -8,6 +9,7 @@ namespace _11bugs_Solitaire
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+        private Settings settings = new Settings();
 
         public Game1()
         {
@@ -18,9 +20,22 @@ namespace _11bugs_Solitaire
 
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
 
-            base.Initialize();
+			// Obtém a resolução atual do monitor principal
+			int currentWidth = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width;
+			int currentHeight = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height;
+
+			// Calcula a nova resolução, aumentando de acordo com o valor de screenSizeRelation
+			int newWidth = (int)(currentWidth * settings.screenResize);
+			int newHeight = (int)(currentHeight * settings.screenResize);
+
+			// Define a nova resolução sem habilitar tela cheia
+			_graphics.PreferredBackBufferWidth = newWidth;
+			_graphics.PreferredBackBufferHeight = newHeight;
+			_graphics.IsFullScreen = false; // Garantir que o modo de tela cheia está desativado
+			_graphics.ApplyChanges();
+
+			base.Initialize();
         }
 
         protected override void LoadContent()
