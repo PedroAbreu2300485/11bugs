@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/SemCarta/posicao.png</SourceFile>
-  <SourceTime>2024-05-18T13:49:35.5671245+01:00</SourceTime>
-  <DestFile>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/bin/DesktopGL/Content/SemCarta/posicao.xnb</DestFile>
-  <DestTime>2024-05-18T13:49:41.2600402+01:00</DestTime>
+  <SourceFile>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/SemCarta/posicao.png</SourceFile>
+  <SourceTime>2024-05-18T23:09:57.7882729+01:00</SourceTime>
+  <DestFile>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/bin/DesktopGL/Content/SemCarta/posicao.xnb</DestFile>
+  <DestTime>2024-05-18T23:14:54.5120611+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T12:44:56+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

@@ -4,67 +4,71 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Costas/amarelo.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Costas/Lilas.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Costas/preto.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Costas/vermelho.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Copas_10.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Copas_2.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Copas_3.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Copas_4.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Copas_5.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Copas_6.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Copas_8.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Copas_9.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Copas_As.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Copas_J.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Copas_K.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Copas_Q.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Espadas_10.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Espadas_2.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Espadas_3.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Espadas_4.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Espadas_5.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Espadas_6.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Espadas_7.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Espadas_8.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Espadas_9.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Espadas_As.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Espadas_J.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Espadas_K.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Espadas_Q.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Ouros_10.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Ouros_2.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Ouros_3.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Ouros_4.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Ouros_5.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Ouros_6.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Ouros_7.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Ouros_8.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Ouros_9.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Ouros_AS.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Ouros_J.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Ouros_K.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Ouros_Q.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Paus_10.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Paus_2.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Paus_3.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Paus_4.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Paus_6.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Paus_7.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Paus_8.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Paus_9.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Paus_As.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Paus_J.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Paus_K.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Paus_Q.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/SemCarta/Copas.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/SemCarta/Espadas.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/SemCarta/Ouros.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/SemCarta/Paus.png</File>
-    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/SemCarta/posicao.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Costas/amarelo.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Costas/Lilas.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Costas/preto.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Costas/vermelho.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Copas_10.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Copas_2.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Copas_3.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Copas_4.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Copas_5.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Copas_6.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Copas_7.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Copas_8.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Copas_9.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Copas_As.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Copas_J.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Copas_K.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Copas_Q.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Espadas_10.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Espadas_2.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Espadas_3.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Espadas_4.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Espadas_5.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Espadas_6.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Espadas_7.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Espadas_8.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Espadas_9.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Espadas_As.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Espadas_J.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Espadas_K.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Espadas_Q.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Ouros_10.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Ouros_2.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Ouros_3.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Ouros_4.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Ouros_5.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Ouros_6.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Ouros_7.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Ouros_8.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Ouros_9.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Ouros_AS.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Ouros_J.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Ouros_K.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Ouros_Q.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Paus_10.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Paus_2.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Paus_3.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Paus_4.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Paus_5.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Paus_6.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Paus_7.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Paus_8.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Paus_9.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Paus_As.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Paus_J.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Paus_K.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Paus_Q.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/SemCarta/Copas.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/SemCarta/Espadas.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/SemCarta/Ouros.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/SemCarta/Paus.png</File>
+    <File>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/SemCarta/posicao.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
