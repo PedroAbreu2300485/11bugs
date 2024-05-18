@@ -133,6 +133,18 @@
 /processorParam:TextureFormat=Color
 /build:Frentes/Copas_6.png
 
+#begin Frentes/Copas_7.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Frentes/Copas_7.png
+
 #begin Frentes/Copas_8.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -565,6 +577,18 @@
 /processorParam:TextureFormat=Color
 /build:Frentes/Paus_4.png
 
+#begin Frentes/Paus_5.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Frentes/Paus_5.png
+
 #begin Frentes/Paus_6.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -708,18 +732,6 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:SemCarta/Paus.png
-
-#begin SemCarta/posicao.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:SemCarta/posicao.png
 
 #begin SemCarta/posicao.png
 /importer:TextureImporter

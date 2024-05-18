@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Ouros_2.png</SourceFile>
-  <SourceTime>2024-05-17T23:00:39.343419+01:00</SourceTime>
-  <DestFile>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/bin/DesktopGL/Frentes/Ouros_2.xnb</DestFile>
-  <DestTime>2024-05-18T13:44:27.4796079+01:00</DestTime>
+  <SourceFile>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Ouros_2.png</SourceFile>
+  <SourceTime>2024-05-18T23:09:57.7752501+01:00</SourceTime>
+  <DestFile>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/bin/DesktopGL/Frentes/Ouros_2.xnb</DestFile>
+  <DestTime>2024-05-18T23:13:57.2053147+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T12:44:56+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
