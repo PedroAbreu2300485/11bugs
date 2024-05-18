@@ -16,10 +16,10 @@ namespace _11bugs.Common
         public List<Cards> Pile6 { get; set; }
         public List<Cards> Pile7 { get; set; }
              
-        public List<Cards> AceClubsPile { get; set; }
-        public List<Cards> AceDiamondsPile { get; set; }
-        public List<Cards> AceHeartsPile { get; set; }
-        public List<Cards> AceSpadesPile { get; set; }
+        public Cards AceClubsPile { get; set; }
+        public Cards AceDiamondsPile { get; set; }
+        public Cards AceHeartsPile { get; set; }
+        public Cards AceSpadesPile { get; set; }
         public List<Cards> HiddenPile { get; set; }
         public List<Cards> ShownedPile { get; set; }
 
@@ -35,10 +35,11 @@ namespace _11bugs.Common
             Pile6 = new List<Cards>();
             Pile7 = new List<Cards>();
 
-            AceClubsPile = new List<Cards>();
-            AceDiamondsPile = new List<Cards>();
-            AceHeartsPile = new List<Cards>();
-            AceSpadesPile = new List<Cards>();
+            AceClubsPile = Cards.Clubs;
+            AceDiamondsPile = Cards.Diamonds;
+            AceHeartsPile = Cards.Hearts;
+            AceSpadesPile = Cards.Spades;
+
             HiddenPile = new List<Cards>();
             ShownedPile = new List<Cards>();
         }

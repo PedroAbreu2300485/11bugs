@@ -35,7 +35,7 @@ namespace _11bugs.View
 			//int newWidth = (int)(currentWidth * settings.screenResize);
 			//int newHeight = (int)(currentHeight * settings.screenResize);
 			int newWidth = 1100;
-			int newHeight = 800;
+			int newHeight = 900;
 
 			// Define a nova resolução sem habilitar tela cheia
 			_graphics.PreferredBackBufferWidth = newWidth;
@@ -57,6 +57,8 @@ namespace _11bugs.View
 			board.CardsImages.Add(Common.Cards.Diamonds, Content.Load<Texture2D>(@"SemCarta\Ouros"));
 			board.CardsImages.Add(Common.Cards.Clubs, Content.Load<Texture2D>(@"SemCarta\Paus"));
 
+			board.CardsImages.Add(Common.Cards.Back, Content.Load<Texture2D>(@"Costas\preto"));
+
 			board.CardsImages.Add(Common.Cards.H1, Content.Load<Texture2D>(@"Frentes\Copas_As"));
 			board.CardsImages.Add(Common.Cards.H2, Content.Load<Texture2D>(@"Frentes\Copas_2"));
 			board.CardsImages.Add(Common.Cards.H3, Content.Load<Texture2D>(@"Frentes\Copas_3"));
@@ -66,7 +68,7 @@ namespace _11bugs.View
 			//board.CardsImages.Add(Common.Cards.H7, Content.Load<Texture2D>(@"Frentes\Copas_7"));
 			board.CardsImages.Add(Common.Cards.H8, Content.Load<Texture2D>(@"Frentes\Copas_8"));
 			board.CardsImages.Add(Common.Cards.H9, Content.Load<Texture2D>(@"Frentes\Copas_9"));
-			board.CardsImages.Add(Common.Cards.H10, Content.Load<Texture2D>(@"Frentes\Copas_10"));
+			board.CardsImages.Add(Common.Cards.HT, Content.Load<Texture2D>(@"Frentes\Copas_10"));
 			board.CardsImages.Add(Common.Cards.HJ, Content.Load<Texture2D>(@"Frentes\Copas_J"));
 			board.CardsImages.Add(Common.Cards.HQ, Content.Load<Texture2D>(@"Frentes\Copas_Q"));
 			board.CardsImages.Add(Common.Cards.HK, Content.Load<Texture2D>(@"Frentes\Copas_K"));
@@ -80,7 +82,7 @@ namespace _11bugs.View
 			board.CardsImages.Add(Common.Cards.S7, Content.Load<Texture2D>(@"Frentes\Espadas_7"));
 			board.CardsImages.Add(Common.Cards.S8, Content.Load<Texture2D>(@"Frentes\Espadas_8"));
 			board.CardsImages.Add(Common.Cards.S9, Content.Load<Texture2D>(@"Frentes\Espadas_9"));
-			board.CardsImages.Add(Common.Cards.S10, Content.Load<Texture2D>(@"Frentes\Espadas_10"));
+			board.CardsImages.Add(Common.Cards.ST, Content.Load<Texture2D>(@"Frentes\Espadas_10"));
 			board.CardsImages.Add(Common.Cards.SJ, Content.Load<Texture2D>(@"Frentes\Espadas_J"));
 			board.CardsImages.Add(Common.Cards.SQ, Content.Load<Texture2D>(@"Frentes\Espadas_Q"));
 			board.CardsImages.Add(Common.Cards.SK, Content.Load<Texture2D>(@"Frentes\Espadas_K"));
@@ -94,7 +96,7 @@ namespace _11bugs.View
 			board.CardsImages.Add(Common.Cards.D7, Content.Load<Texture2D>(@"Frentes\Ouros_7"));
 			board.CardsImages.Add(Common.Cards.D8, Content.Load<Texture2D>(@"Frentes\Ouros_8"));
 			board.CardsImages.Add(Common.Cards.D9, Content.Load<Texture2D>(@"Frentes\Ouros_9"));
-			board.CardsImages.Add(Common.Cards.D10, Content.Load<Texture2D>(@"Frentes\Ouros_10"));
+			board.CardsImages.Add(Common.Cards.DT, Content.Load<Texture2D>(@"Frentes\Ouros_10"));
 			board.CardsImages.Add(Common.Cards.DJ, Content.Load<Texture2D>(@"Frentes\Ouros_J"));
 			board.CardsImages.Add(Common.Cards.DQ, Content.Load<Texture2D>(@"Frentes\Ouros_Q"));
 			board.CardsImages.Add(Common.Cards.DK, Content.Load<Texture2D>(@"Frentes\Ouros_K"));
@@ -108,7 +110,7 @@ namespace _11bugs.View
 			board.CardsImages.Add(Common.Cards.C7, Content.Load<Texture2D>(@"Frentes\Paus_7"));
 			board.CardsImages.Add(Common.Cards.C8, Content.Load<Texture2D>(@"Frentes\Paus_8"));
 			board.CardsImages.Add(Common.Cards.C9, Content.Load<Texture2D>(@"Frentes\Paus_9"));
-			board.CardsImages.Add(Common.Cards.C10, Content.Load<Texture2D>(@"Frentes\Paus_10"));
+			board.CardsImages.Add(Common.Cards.CT, Content.Load<Texture2D>(@"Frentes\Paus_10"));
 			board.CardsImages.Add(Common.Cards.CJ, Content.Load<Texture2D>(@"Frentes\Paus_J"));
 			board.CardsImages.Add(Common.Cards.CQ, Content.Load<Texture2D>(@"Frentes\Paus_Q"));
 			board.CardsImages.Add(Common.Cards.CK, Content.Load<Texture2D>(@"Frentes\Paus_K"));
@@ -132,10 +134,6 @@ namespace _11bugs.View
 			_spriteBatch.Begin();
 
 			board.Draw(_spriteBatch, _imageScale, Color.White);
-
-			//_spriteBatch.Draw(_image, new Vector2(10, 10), null, Color.White, 0f, Vector2.Zero, _imageScale, SpriteEffects.None, 0f);
-
-			//_spriteBatch.Draw(_image, Vector2.Zero, null, Color.White, 0f, Vector2.Zero, 1.0f, SpriteEffects.None, 0f);
 
 			_spriteBatch.End();
 
