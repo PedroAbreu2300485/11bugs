@@ -2,8 +2,6 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-
-
 namespace _11bugs.View
 {
     public class Game1 : Game
@@ -12,7 +10,10 @@ namespace _11bugs.View
         private SpriteBatch _spriteBatch;
         private Common.Settings settings = new Common.Settings();
 
-        public Game1()
+		private Texture2D _image;
+		private Vector2 _imageScale;
+
+		public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
@@ -33,7 +34,7 @@ namespace _11bugs.View
             // Define a nova resolução sem habilitar tela cheia
             _graphics.PreferredBackBufferWidth = newWidth;
             _graphics.PreferredBackBufferHeight = newHeight;
-            _graphics.IsFullScreen = false; // Garantir que o modo de tela cheia está desativado
+            _graphics.IsFullScreen = false;
             _graphics.ApplyChanges();
 
             base.Initialize();
@@ -43,10 +44,12 @@ namespace _11bugs.View
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            // TODO: use this.Content to load your game content here
-        }
+			_image = Content.Load<Texture2D>("SemCarta\\posicao");
 
-        protected override void Update(GameTime gameTime)
+			_imageScale = new Vector2(100f / _image.Width, 150f / _image.Height);
+		}
+
+		protected override void Update(GameTime gameTime)
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
@@ -60,9 +63,15 @@ namespace _11bugs.View
         {
             GraphicsDevice.Clear(Color.Green);
 
-            // TODO: Add your drawing code here
+            _spriteBatch.Begin();
 
-            base.Draw(gameTime);
+			_spriteBatch.Draw(_image, new Vector2(10, 10), null, Color.White, 0f, Vector2.Zero, _imageScale, SpriteEffects.None, 0f);
+
+			//_spriteBatch.Draw(_image, Vector2.Zero, null, Color.White, 0f, Vector2.Zero, 1.0f, SpriteEffects.None, 0f);
+
+			_spriteBatch.End();
+
+			base.Draw(gameTime);
         }
     }
 }
