@@ -1,7 +1,8 @@
-﻿using Common;
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+
+
 
 namespace _11bugs.View
 {
@@ -9,7 +10,7 @@ namespace _11bugs.View
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-        private Settings settings = new Settings();
+        private Common.Settings settings = new Common.Settings();
 
         public Game1()
         {
