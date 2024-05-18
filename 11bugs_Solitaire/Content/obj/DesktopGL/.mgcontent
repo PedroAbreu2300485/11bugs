@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Profile>Reach</Profile>
   <Platform>DesktopGL</Platform>
   <Config />
@@ -58,9 +58,17 @@
     <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Paus_J.png</File>
     <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Paus_K.png</File>
     <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Paus_Q.png</File>
+    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/SemCarta/Copas.png</File>
+    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/SemCarta/Espadas.png</File>
+    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/SemCarta/Ouros.png</File>
+    <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/SemCarta/Paus.png</File>
     <File>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/SemCarta/posicao.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

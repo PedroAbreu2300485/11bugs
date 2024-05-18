@@ -39,9 +39,9 @@ namespace _11bugs.Controller
 			model.JogoGravado += JogoGravado;
 			model.EstatisticasGravadas += EstatisticasGravadas;
 
-			view.PedirDefinicoes += model.PedirDefinicoes; // Class
+			view.PedirDefinicoes += model.PedirDefinicoes; 
 
-			view.CartaClicada += model.CartaClicada; // int
+			view.CartaClicada += model.CartaClicada;
 			view.CartaLargada += model.CartaLargada;
 
 			view.InterfaceDesenhada += InterfaceDesenhada;

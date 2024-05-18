@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Espadas_Q.png</SourceFile>
   <SourceTime>2024-05-17T23:00:39.3415197+01:00</SourceTime>
   <DestFile>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/bin/DesktopGL/Frentes/Espadas_Q.xnb</DestFile>
-  <DestTime>2024-05-18T10:28:07.9374424+01:00</DestTime>
+  <DestTime>2024-05-18T13:44:27.4693286+01:00</DestTime>
   <Importer>TextureImporter</Importer>
-  <ImporterTime>2018-12-08T16:35:54+00:00</ImporterTime>
+  <ImporterTime>2022-07-26T12:44:56+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
-  <ProcessorTime>2018-12-08T16:35:54+00:00</ProcessorTime>
+  <ProcessorTime>2022-07-26T12:44:56+01:00</ProcessorTime>
   <Parameters>
     <Key>ColorKeyColor</Key>
     <Value>255,0,255,255</Value>

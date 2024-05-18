@@ -8,39 +8,39 @@ namespace _11bugs.Common
 {
     internal class Piles
     {
-        List<Cards> Pile1 { get; set; }
-        List<Cards> Pile2 { get; set; }
-        List<Cards> Pile3 { get; set; }
-        List<Cards> Pile4 { get; set; }
-        List<Cards> Pile5 { get; set; }
-        List<Cards> Pile6 { get; set; }
-        List<Cards> Pile7 { get; set; }
+        public List<Cards> Pile1 { get; set; }
+        public List<Cards> Pile2 { get; set; }
+        public List<Cards> Pile3 { get; set; }
+        public List<Cards> Pile4 { get; set; }
+        public List<Cards> Pile5 { get; set; }
+        public List<Cards> Pile6 { get; set; }
+        public List<Cards> Pile7 { get; set; }
              
-        List<Cards> AceClubsPile { get; set; }
-        List<Cards> AceDiamondsPile { get; set; }
-        List<Cards> AceHeartsPile { get; set; }
-        List<Cards> AceSpadesPile { get; set; }
-        List<Cards> HiddenPile { get; set; }
-        List<Cards> ShownedPile { get; set; }
+        public List<Cards> AceClubsPile { get; set; }
+        public List<Cards> AceDiamondsPile { get; set; }
+        public List<Cards> AceHeartsPile { get; set; }
+        public List<Cards> AceSpadesPile { get; set; }
+        public List<Cards> HiddenPile { get; set; }
+        public List<Cards> ShownedPile { get; set; }
 
 
 
         public Piles()
         {
-            List<Cards> Pile1 = new List<Cards>();
-            List<Cards> Pile2 = new List<Cards>();
-            List<Cards> Pile3 = new List<Cards>();
-            List<Cards> Pile4 = new List<Cards>();
-            List<Cards> Pile5 = new List<Cards>();
-            List<Cards> Pile6 = new List<Cards>();
-            List<Cards> Pile7 = new List<Cards>();
+            Pile1 = new List<Cards>();
+            Pile2 = new List<Cards>();
+            Pile3 = new List<Cards>();
+            Pile4 = new List<Cards>();
+            Pile5 = new List<Cards>();
+            Pile6 = new List<Cards>();
+            Pile7 = new List<Cards>();
 
-            List<Cards> AceClubsPile = new List<Cards>();
-            List<Cards> AceDiamondsPile = new List<Cards>();
-            List<Cards> AceHeartsPile = new List<Cards>();
-            List<Cards> AceSpadesPile = new List<Cards>();
-            List<Cards> HiddenPile = new List<Cards>();
-            List<Cards> ShownedPile = new List<Cards>();
+            AceClubsPile = new List<Cards>();
+            AceDiamondsPile = new List<Cards>();
+            AceHeartsPile = new List<Cards>();
+            AceSpadesPile = new List<Cards>();
+            HiddenPile = new List<Cards>();
+            ShownedPile = new List<Cards>();
         }
 
     }
