@@ -1,9 +1,9 @@
-﻿using Decktacular;
+﻿using Common;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-namespace _11bugs_Solitaire
+namespace _11bugs.View
 {
     public class Game1 : Game
     {
@@ -21,21 +21,21 @@ namespace _11bugs_Solitaire
         protected override void Initialize()
         {
 
-			// Obtém a resolução atual do monitor principal
-			int currentWidth = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width;
-			int currentHeight = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height;
+            // Obtém a resolução atual do monitor principal
+            int currentWidth = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width;
+            int currentHeight = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height;
 
-			// Calcula a nova resolução, aumentando de acordo com o valor de screenSizeRelation
-			int newWidth = (int)(currentWidth * settings.screenResize);
-			int newHeight = (int)(currentHeight * settings.screenResize);
+            // Calcula a nova resolução, aumentando de acordo com o valor de screenSizeRelation
+            int newWidth = (int)(currentWidth * settings.screenResize);
+            int newHeight = (int)(currentHeight * settings.screenResize);
 
-			// Define a nova resolução sem habilitar tela cheia
-			_graphics.PreferredBackBufferWidth = newWidth;
-			_graphics.PreferredBackBufferHeight = newHeight;
-			_graphics.IsFullScreen = false; // Garantir que o modo de tela cheia está desativado
-			_graphics.ApplyChanges();
+            // Define a nova resolução sem habilitar tela cheia
+            _graphics.PreferredBackBufferWidth = newWidth;
+            _graphics.PreferredBackBufferHeight = newHeight;
+            _graphics.IsFullScreen = false; // Garantir que o modo de tela cheia está desativado
+            _graphics.ApplyChanges();
 
-			base.Initialize();
+            base.Initialize();
         }
 
         protected override void LoadContent()
@@ -57,7 +57,7 @@ namespace _11bugs_Solitaire
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Green);
 
             // TODO: Add your drawing code here
 

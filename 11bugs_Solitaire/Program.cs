@@ -1,3 +1,4 @@
 ﻿
-using var game = new _11bugs_Solitaire.Game1();
-game.Run();
+var game = new _11bugs.Controller.Controller();
+game.IniciarPrograma();
+

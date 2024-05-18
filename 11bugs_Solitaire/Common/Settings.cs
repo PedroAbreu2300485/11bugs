@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Decktacular
+namespace Common
 {
-	class Settings
-	{
-		public decimal screenResize = 0.9M;
-	}
+    class Settings
+    {
+        public decimal screenResize = 0.9M;
+    }
 }
