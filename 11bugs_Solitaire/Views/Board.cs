@@ -54,7 +54,8 @@ namespace _11bugs.Views
 			piles.Pile3.Add(Cards.D7);
 			piles.Pile3.Add(Cards.S6);
 			piles.Pile4.Add(Cards.S2);
-			piles.Pile6.Add(Cards.Back);
+            piles.Pile5.Add(Cards.C1);
+            piles.Pile6.Add(Cards.Back);
 			piles.Pile6.Add(Cards.HK);
 			piles.Pile6.Add(Cards.SQ);
 			piles.HiddenPile.Add(Cards.Back);
