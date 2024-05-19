@@ -11,8 +11,8 @@ namespace _11bugs.View
     public delegate void Carta(int numCarta);
     class View
     {
-        Game1 game;
-        Board board;
+        //Game1 game;
+        //Board board;
 
         public delegate void PedeDefinicoes(ref string asDefinicoes);
         public event PedeDefinicoes PedirDefinicoes;
@@ -33,10 +33,10 @@ namespace _11bugs.View
 
         public View()
         {
-            board = new Board();
+            //board = new Board();
 
-            game = new Game1(board);
-            game.Run();
+            //game = new Game1(board);
+            //game.Run();
         }
 
         internal void DefinicoesCarregadas()
@@ -49,7 +49,7 @@ namespace _11bugs.View
             Console.WriteLine("NovoJogoCriado");
         }
 
-        internal void EstadoAtualizado()
+        internal void EstadoAtualizado(Piles piles)
         {
             Console.WriteLine("Estado atualizado");
         }

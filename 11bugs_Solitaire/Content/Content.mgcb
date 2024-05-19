@@ -13,30 +13,6 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin ../../../Alonze/Imagens/Naipes/Normal/Ouros_K.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:../../../Alonze/Imagens/Naipes/Normal/Ouros_K.png;Frentes/Ouros_K.png
-
-#begin ../../../Alonze/Imagens/Naipes/Normal/Paus_As.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:../../../Alonze/Imagens/Naipes/Normal/Paus_As.png;Frentes/Paus_As.png
-
 #begin Costas/amarelo.png
 /importer:TextureImporter
 /processor:TextureProcessor

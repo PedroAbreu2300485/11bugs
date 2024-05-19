@@ -19,8 +19,9 @@ namespace _11bugs.Controller
 		public event Notificar AbreJogo;
 		public event Notificar GravaEstatistica;
 
-		public void IniciarPrograma()
-		{
+        public Controller()
+        {
+            
 			view = new View.View();
 			model = new Model.Model();
 
@@ -53,9 +54,6 @@ namespace _11bugs.Controller
 
 			view.UserAlterouAsDefinicoes += UserAlterouAsDefinicoes;
 
-			// Para testes
-			Thread.Sleep(1000);
-			CarregarDefinicoes();  // para testes na view
 		}
 
 		private void UserAlterouAsDefinicoes()

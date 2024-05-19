@@ -16,9 +16,15 @@ namespace _11bugs.View
 		private Texture2D _image;
 		private Vector2 _imageScale;
 
-		public Game1(Board board)
+		public Game1(Board board = null)
 		{
-			this.board = board;
+			_11bugs.Controller.Controller controller = new _11bugs.Controller.Controller();
+
+			if(board == null)
+				this.board = new Board(0);
+			else
+				this.board = board;
+
 			_graphics = new GraphicsDeviceManager(this);
 			Content.RootDirectory = "Content";
 			IsMouseVisible = true;
@@ -59,7 +65,7 @@ namespace _11bugs.View
 
 			board.CardsImages.Add(Common.Cards.Back, Content.Load<Texture2D>(@"Costas\preto"));
 
-			board.CardsImages.Add(Common.Cards.H1, Content.Load<Texture2D>(@"Frentes\Copas_As"));
+			board.CardsImages.Add(Common.Cards.HA, Content.Load<Texture2D>(@"Frentes\Copas_As"));
 			board.CardsImages.Add(Common.Cards.H2, Content.Load<Texture2D>(@"Frentes\Copas_2"));
 			board.CardsImages.Add(Common.Cards.H3, Content.Load<Texture2D>(@"Frentes\Copas_3"));
 			board.CardsImages.Add(Common.Cards.H4, Content.Load<Texture2D>(@"Frentes\Copas_4"));
@@ -73,7 +79,7 @@ namespace _11bugs.View
 			board.CardsImages.Add(Common.Cards.HQ, Content.Load<Texture2D>(@"Frentes\Copas_Q"));
 			board.CardsImages.Add(Common.Cards.HK, Content.Load<Texture2D>(@"Frentes\Copas_K"));
 
-			board.CardsImages.Add(Common.Cards.S1, Content.Load<Texture2D>(@"Frentes\Espadas_As"));
+			board.CardsImages.Add(Common.Cards.SA, Content.Load<Texture2D>(@"Frentes\Espadas_As"));
 			board.CardsImages.Add(Common.Cards.S2, Content.Load<Texture2D>(@"Frentes\Espadas_2"));
 			board.CardsImages.Add(Common.Cards.S3, Content.Load<Texture2D>(@"Frentes\Espadas_3"));
 			board.CardsImages.Add(Common.Cards.S4, Content.Load<Texture2D>(@"Frentes\Espadas_4"));
@@ -87,7 +93,7 @@ namespace _11bugs.View
 			board.CardsImages.Add(Common.Cards.SQ, Content.Load<Texture2D>(@"Frentes\Espadas_Q"));
 			board.CardsImages.Add(Common.Cards.SK, Content.Load<Texture2D>(@"Frentes\Espadas_K"));
 
-			board.CardsImages.Add(Common.Cards.D1, Content.Load<Texture2D>(@"Frentes\Ouros_As"));
+			board.CardsImages.Add(Common.Cards.DA, Content.Load<Texture2D>(@"Frentes\Ouros_As"));
 			board.CardsImages.Add(Common.Cards.D2, Content.Load<Texture2D>(@"Frentes\Ouros_2"));
 			board.CardsImages.Add(Common.Cards.D3, Content.Load<Texture2D>(@"Frentes\Ouros_3"));
 			board.CardsImages.Add(Common.Cards.D4, Content.Load<Texture2D>(@"Frentes\Ouros_4"));
@@ -101,7 +107,7 @@ namespace _11bugs.View
 			board.CardsImages.Add(Common.Cards.DQ, Content.Load<Texture2D>(@"Frentes\Ouros_Q"));
 			board.CardsImages.Add(Common.Cards.DK, Content.Load<Texture2D>(@"Frentes\Ouros_K"));
 
-			board.CardsImages.Add(Common.Cards.C1, Content.Load<Texture2D>(@"Frentes\Paus_As"));
+			board.CardsImages.Add(Common.Cards.CA, Content.Load<Texture2D>(@"Frentes\Paus_As"));
 			board.CardsImages.Add(Common.Cards.C2, Content.Load<Texture2D>(@"Frentes\Paus_2"));
 			board.CardsImages.Add(Common.Cards.C3, Content.Load<Texture2D>(@"Frentes\Paus_3"));
 			board.CardsImages.Add(Common.Cards.C4, Content.Load<Texture2D>(@"Frentes\Paus_4"));

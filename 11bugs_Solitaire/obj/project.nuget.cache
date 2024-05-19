@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "26lKXTMW/LlWPqlCg07KHh5s1ui1tRTyv8L/JvcyC5YbNX6LjlG0ZgCh4w9asywmibJiaIbCmZqrpZIZF85SaQ==",
+  "dgSpecHash": "HOEROiUIKnd2Q2SZpM584NV1S86vveXEZ8ixnF0Mrj8+sXLk+ON2sIkWioy+wQs1lyLRjz+PtnHSBMIXrARR/w==",
   "success": true,
-  "projectFilePath": "C:\\PEDRO\\U Aberta\\Disciplinas\\2Semestre\\Laboratório de Desenvolvimento de Software\\11Bugs\\11bugs_Solitaire\\11bugs_Solitaire.csproj",
+  "projectFilePath": "D:\\OneDrive - Universidade Aberta\\_ 3 - Semestre 2\\LDS - Lab Desenvolvimento Software\\11bugs\\11bugs_Solitaire\\11bugs_Solitaire.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Pedo Abreu\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
-    "C:\\Users\\Pedo Abreu\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+    "C:\\Users\\bruno\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\bruno\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
   ],
   "logs": []
 }

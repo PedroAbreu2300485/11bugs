@@ -30,37 +30,45 @@ namespace _11bugs.Views
 		private Microsoft.Xna.Framework.Vector2 AceHeartsPilePos = new Microsoft.Xna.Framework.Vector2(800, 10);
 		private Microsoft.Xna.Framework.Vector2 AceSpadesPilePos = new Microsoft.Xna.Framework.Vector2(950, 10);
 
-		public Board() {
-			piles.Pile1.Add(Cards.Back);
-			piles.Pile1.Add(Cards.DK);
-			piles.Pile1.Add(Cards.CQ);
-			piles.Pile1.Add(Cards.DJ);
-			piles.Pile1.Add(Cards.CT);
-			piles.Pile1.Add(Cards.D9);
-			piles.Pile1.Add(Cards.C8);
-			piles.Pile1.Add(Cards.D7);
-			piles.Pile1.Add(Cards.C6);
-			piles.Pile1.Add(Cards.D5);
-			piles.Pile1.Add(Cards.C4);
-			piles.Pile1.Add(Cards.D3);
-			piles.Pile1.Add(Cards.C2);
-			piles.Pile1.Add(Cards.D1);
-			piles.Pile2.Add(Cards.Back);
-			piles.Pile2.Add(Cards.Back);
-			piles.Pile2.Add(Cards.Back);
-			piles.Pile2.Add(Cards.Back);
-			piles.Pile2.Add(Cards.Back);
-			piles.Pile3.Add(Cards.Back);
-			piles.Pile3.Add(Cards.D7);
-			piles.Pile3.Add(Cards.S6);
-			piles.Pile4.Add(Cards.S2);
-            piles.Pile5.Add(Cards.C1);
-            piles.Pile6.Add(Cards.Back);
-			piles.Pile6.Add(Cards.HK);
-			piles.Pile6.Add(Cards.SQ);
-			piles.HiddenPile.Add(Cards.Back);
-
-			piles.AceClubsPile = Cards.C3;
+		public Board(int type) {
+			if(type == 0)
+			{
+				piles.ClubsPile = Cards.CA;
+				piles.DiamondsPile = Cards.DA;
+				piles.HeartsPile = Cards.HA;
+				piles.SpadesPile = Cards.SA;
+			}
+			else if(type == 1)
+			{
+				piles.Pile1.Add(Cards.Back);
+				piles.Pile1.Add(Cards.DK);
+				piles.Pile1.Add(Cards.CQ);
+				piles.Pile1.Add(Cards.DJ);
+				piles.Pile1.Add(Cards.CT);
+				piles.Pile1.Add(Cards.D9);
+				piles.Pile1.Add(Cards.C8);
+				piles.Pile1.Add(Cards.D7);
+				piles.Pile1.Add(Cards.C6);
+				piles.Pile1.Add(Cards.D5);
+				piles.Pile1.Add(Cards.C4);
+				piles.Pile1.Add(Cards.D3);
+				piles.Pile1.Add(Cards.C2);
+				piles.Pile1.Add(Cards.DA);
+				piles.Pile2.Add(Cards.Back);
+				piles.Pile2.Add(Cards.Back);
+				piles.Pile2.Add(Cards.Back);
+				piles.Pile2.Add(Cards.Back);
+				piles.Pile2.Add(Cards.Back);
+				piles.Pile3.Add(Cards.Back);
+				piles.Pile3.Add(Cards.D7);
+				piles.Pile3.Add(Cards.S6);
+				piles.Pile4.Add(Cards.S2);
+				piles.Pile5.Add(Cards.CA);
+				piles.Pile6.Add(Cards.Back);
+				piles.Pile6.Add(Cards.HK);
+				piles.Pile6.Add(Cards.SQ);
+				piles.HiddenPile.Add(Cards.Back);
+			}
 		}
 		public void Draw(SpriteBatch spriteBatch, Microsoft.Xna.Framework.Vector2 imageScale, Microsoft.Xna.Framework.Color color)
 		{
@@ -79,10 +87,10 @@ namespace _11bugs.Views
 			DrawPiles(piles.Pile6,Pile6Pos, spriteBatch, imageScale, color);
 			DrawPiles(piles.Pile7,Pile7Pos, spriteBatch, imageScale, color);
 
-			spriteBatch.Draw(CardsImages[piles.AceClubsPile], AceClubsPilePos, null, color, 0f, Microsoft.Xna.Framework.Vector2.Zero, imageScale, SpriteEffects.None, 0f);
-			spriteBatch.Draw(CardsImages[piles.AceDiamondsPile], AceDiamondsPilePos, null, color, 0f, Microsoft.Xna.Framework.Vector2.Zero, imageScale, SpriteEffects.None, 0f);
-			spriteBatch.Draw(CardsImages[piles.AceHeartsPile], AceHeartsPilePos, null, color, 0f, Microsoft.Xna.Framework.Vector2.Zero, imageScale, SpriteEffects.None, 0f);
-			spriteBatch.Draw(CardsImages[piles.AceSpadesPile], AceSpadesPilePos, null, color, 0f, Microsoft.Xna.Framework.Vector2.Zero, imageScale, SpriteEffects.None, 0f);
+			spriteBatch.Draw(CardsImages[piles.ClubsPile], AceClubsPilePos, null, color, 0f, Microsoft.Xna.Framework.Vector2.Zero, imageScale, SpriteEffects.None, 0f);
+			spriteBatch.Draw(CardsImages[piles.DiamondsPile], AceDiamondsPilePos, null, color, 0f, Microsoft.Xna.Framework.Vector2.Zero, imageScale, SpriteEffects.None, 0f);
+			spriteBatch.Draw(CardsImages[piles.HeartsPile], AceHeartsPilePos, null, color, 0f, Microsoft.Xna.Framework.Vector2.Zero, imageScale, SpriteEffects.None, 0f);
+			spriteBatch.Draw(CardsImages[piles.SpadesPile], AceSpadesPilePos, null, color, 0f, Microsoft.Xna.Framework.Vector2.Zero, imageScale, SpriteEffects.None, 0f);
 		}
 
 		private void DrawPiles(List<Cards> cards, Microsoft.Xna.Framework.Vector2 pilePos, SpriteBatch spriteBatch, Microsoft.Xna.Framework.Vector2 imageScale, Microsoft.Xna.Framework.Color color)
