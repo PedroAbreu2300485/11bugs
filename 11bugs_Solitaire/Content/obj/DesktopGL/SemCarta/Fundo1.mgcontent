@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/Frentes/Paus_2.png</SourceFile>
-  <SourceTime>2024-05-18T23:09:57.7812765+01:00</SourceTime>
-  <DestFile>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/bin/DesktopGL/Frentes/Paus_2.xnb</DestFile>
-  <DestTime>2024-05-19T17:58:02.3546132+01:00</DestTime>
+  <SourceFile>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/SemCarta/Fundo1.png</SourceFile>
+  <SourceTime>2024-05-19T00:15:17.5859707+01:00</SourceTime>
+  <DestFile>C:/PEDRO/U Aberta/Disciplinas/2Semestre/Laboratório de Desenvolvimento de Software/11Bugs/11bugs_Solitaire/Content/bin/DesktopGL/SemCarta/Fundo1.xnb</DestFile>
+  <DestTime>2024-05-19T17:58:02.4142387+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T12:44:56+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

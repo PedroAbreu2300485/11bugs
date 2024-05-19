@@ -733,6 +733,30 @@
 /processorParam:TextureFormat=Color
 /build:SemCarta/Espadas.png
 
+#begin SemCarta/Fundo1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:SemCarta/Fundo1.png
+
+#begin SemCarta/Fundo2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:SemCarta/Fundo2.png
+
 #begin SemCarta/Ouros.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -768,4 +792,16 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:SemCarta/posicao.png
+
+#begin SemCarta/Volta.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:SemCarta/Volta.png
 
