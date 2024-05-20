@@ -30,7 +30,7 @@ namespace _11bugs.Views
 		private Microsoft.Xna.Framework.Vector2 AceHeartsPilePos = new Microsoft.Xna.Framework.Vector2(800, 10);
 		private Microsoft.Xna.Framework.Vector2 AceSpadesPilePos = new Microsoft.Xna.Framework.Vector2(950, 10);
 
-		public Board(int type) {
+		public Board(int type = 0) {
 			if(type == 0)
 			{
 				piles.ClubsPile = Cards.CA;
@@ -70,6 +70,12 @@ namespace _11bugs.Views
 				piles.HiddenPile.Add(Cards.Back);
 			}
 		}
+
+		public void SetPiles(Piles piles)
+		{
+			this.piles = piles;
+		}
+
 		public void Draw(SpriteBatch spriteBatch, Microsoft.Xna.Framework.Vector2 imageScale, Microsoft.Xna.Framework.Color color)
 		{
 			if(piles == null) return;

@@ -25,7 +25,7 @@ namespace _11bugs.Common
 
 
 
-        public Piles()
+        public Piles(int type = 0)
         {
             Pile1 = new List<Cards>();
             Pile2 = new List<Cards>();
@@ -42,6 +42,15 @@ namespace _11bugs.Common
 
             HiddenPile = new List<Cards>();
             ShownedPile = new List<Cards>();
+
+            if(type == 1)
+            {
+                Pile1.Add(Cards.Back);
+                Pile3.Add(Cards.Back);
+                Pile5.Add(Cards.Back);
+                Pile7.Add(Cards.Back);
+            }
+
         }
 
     }

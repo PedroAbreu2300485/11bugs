@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace _11bugs.View
 {
-    public delegate void Carta(int numCarta);
-    class View
+    public delegate void Carta123(int numCarta);
+    class View_old
     {
         //Game1 game;
         //Board board;
@@ -31,7 +31,7 @@ namespace _11bugs.View
         public event Notificar UserAlterouAsDefinicoes;
 
 
-        public View()
+        public View_old()
         {
             //board = new Board();
 

@@ -3,6 +3,6 @@
 //game.IniciarPrograma();
 using _11bugs.View;
 
-var game = new Game1();
+var game = new View();
 game.Run();
 

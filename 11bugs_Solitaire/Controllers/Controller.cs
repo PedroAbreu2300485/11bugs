@@ -19,10 +19,10 @@ namespace _11bugs.Controller
 		public event Notificar AbreJogo;
 		public event Notificar GravaEstatistica;
 
-        public Controller()
+        public Controller(View.View view)
         {
             
-			view = new View.View();
+			this.view = view;
 			model = new Model.Model();
 
 			CarregarDefinicoes += model.CarregarDefinicoes;

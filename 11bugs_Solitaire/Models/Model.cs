@@ -34,7 +34,7 @@ namespace _11bugs.Model
 
 		private void OnTimedEvent(Object source, ElapsedEventArgs e)
 		{
-			EstadoAtualizado?.Invoke(new Piles());
+			EstadoAtualizado?.Invoke(new Piles(1));
 		}
 
 		// Carregar definicoes

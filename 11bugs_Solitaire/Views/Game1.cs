@@ -1,12 +1,33 @@
-﻿using _11bugs.Views;
+﻿using _11bugs.Common;
+using _11bugs.Views;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System;
 
 namespace _11bugs.View
 {
-	class Game1 : Game
+	public delegate void Carta(int numCarta);
+
+	class View : Game
 	{
+		public delegate void PedeDefinicoes(ref string asDefinicoes);
+		public event PedeDefinicoes PedirDefinicoes;
+
+		public event Carta CartaClicada;
+		public event Carta CartaLargada;
+
+		public delegate void Notificar();
+		public event Notificar InterfaceDesenhada;
+		public event Notificar NovoJogoDesenhado;
+		public event Notificar UserClicouNovoJogo;
+		public event Notificar UserClicouGravarJogo;
+		public event Notificar UserClicouAbrirJogo;
+		public event Notificar UserClicouSair;
+
+		public event Notificar UserAlterouAsDefinicoes;
+
+
 		private GraphicsDeviceManager _graphics;
 		private SpriteBatch _spriteBatch;
 		private Common.Settings settings = new Common.Settings();
@@ -16,9 +37,9 @@ namespace _11bugs.View
 		private Texture2D _image;
 		private Vector2 _imageScale;
 
-		public Game1(Board board = null)
+		public View(Board board = null)
 		{
-			_11bugs.Controller.Controller controller = new _11bugs.Controller.Controller();
+			_11bugs.Controller.Controller controller = new _11bugs.Controller.Controller(this);
 
 			if(board == null)
 				this.board = new Board(0);
@@ -32,14 +53,9 @@ namespace _11bugs.View
 
 		protected override void Initialize()
 		{
-
-			// Obtém a resolução atual do monitor principal
 			int currentWidth = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width;
 			int currentHeight = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height;
 
-			// Calcula a nova resolução, aumentando de acordo com o valor de screenSizeRelation
-			//int newWidth = (int)(currentWidth * settings.screenResize);
-			//int newHeight = (int)(currentHeight * settings.screenResize);
 			int newWidth = 1100;
 			int newHeight = 900;
 
@@ -145,5 +161,22 @@ namespace _11bugs.View
 
 			base.Draw(gameTime);
 		}
+
+
+		internal void DefinicoesCarregadas()
+		{
+			Console.WriteLine("Definicoes carregadaas");
+		}
+
+		internal void NovoJogoCriado()
+		{
+			Console.WriteLine("NovoJogoCriado");
+		}
+
+		internal void EstadoAtualizado(Piles piles)
+		{
+			Console.WriteLine("Estado atualizado");
+		}
+
 	}
 }
