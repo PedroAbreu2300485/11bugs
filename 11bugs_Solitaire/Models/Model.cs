@@ -49,8 +49,9 @@ namespace _11bugs.Model
             Console.WriteLine("Cria novo jogo");
         }
 
-        internal void CartaClicada(int numCarta)
+        internal void CartaClicada(Cards card)
         {
+            // card contem a carta que foi cicada/largada
 
         }
 

@@ -12,9 +12,10 @@ namespace _11bugs.View
 	class View : Game
 	{
 		public delegate void PedeDefinicoes(ref string asDefinicoes);
+		public delegate void CardType(Cards card);
 		public event PedeDefinicoes PedirDefinicoes;
 
-		public event Carta CartaClicada;
+		public event CardType CartaClicada;
 		public event Carta CartaLargada;
 
 		public delegate void Notificar();
@@ -56,7 +57,6 @@ namespace _11bugs.View
 			int newWidth = 1100;
 			int newHeight = 900;
 
-			// Define a nova resolução sem habilitar tela cheia
 			_graphics.PreferredBackBufferWidth = newWidth;
 			_graphics.PreferredBackBufferHeight = newHeight;
 			_graphics.IsFullScreen = false;
@@ -149,13 +149,10 @@ namespace _11bugs.View
 			MouseState currentMouseState = Mouse.GetState();
 			if(_previousMouseState.LeftButton == ButtonState.Pressed && currentMouseState.LeftButton == ButtonState.Released)
 			{
-				//Carta cartaClicada = board.VerificarCliqueCarta(mouseState.Position);
-				//if(cartaClicada != null)
-				//{
-				//	CartaClicada?.Invoke(cartaClicada); 
-				//}
+				var cardClicked = board.GetClickedCard(currentMouseState.Position);
+				if(cardClicked != null)
+					CartaClicada((Cards)cardClicked);
 			}
-
 			_previousMouseState = currentMouseState;
 			base.Update(gameTime);
 		}

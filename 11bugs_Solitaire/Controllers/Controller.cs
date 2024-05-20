@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Threading;
 using _11bugs.View;
+using _11bugs.Common;
+using static _11bugs.View.View;
 
 namespace _11bugs.Controller
 {
@@ -13,7 +15,7 @@ namespace _11bugs.Controller
 
 		public event Notificar CarregarDefinicoes;
 		public event Notificar CriarNovoJogo;
-		public event Carta CartaClicada;
+		public event CardType CartaClicada;
 		public event Carta CartaLargada;
 		public event Notificar GravaJogo;
 		public event Notificar AbreJogo;
