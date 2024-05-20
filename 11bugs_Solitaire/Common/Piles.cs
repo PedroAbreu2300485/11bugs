@@ -25,7 +25,7 @@ namespace _11bugs.Common
 
 
 
-        public Piles(int type = 0)
+        public Piles(bool tests = false)
         {
             Pile1 = new List<Cards>();
             Pile2 = new List<Cards>();
@@ -43,15 +43,34 @@ namespace _11bugs.Common
             HiddenPile = new List<Cards>();
             ShownedPile = new List<Cards>();
 
-            if(type == 1)
-            {
-                Pile1.Add(Cards.Back);
-                Pile3.Add(Cards.Back);
-                Pile5.Add(Cards.Back);
-                Pile7.Add(Cards.Back);
-            }
+            if(tests)	Tests();
 
-        }
+		}
 
-    }
+		private void Tests()
+		{
+            Pile1 = GetRandomCards();
+            Pile2 = GetRandomCards();
+            Pile3 = GetRandomCards();
+            Pile4 = GetRandomCards();
+            Pile6 = GetRandomCards();
+            Pile7 = GetRandomCards();
+
+		}
+		public static List<Cards> GetRandomCards()
+		{
+			Random random = new Random();
+			int numberOfCards = random.Next(1, 6); 
+			List<Cards> cardsList = new List<Cards>();
+
+			Array values = Enum.GetValues(typeof(Cards));
+			for(int i = 0; i < numberOfCards; i++)
+			{
+				Cards randomCard = (Cards)values.GetValue(random.Next(values.Length));
+				cardsList.Add(randomCard);
+			}
+
+			return cardsList;
+		}
+	}
 }

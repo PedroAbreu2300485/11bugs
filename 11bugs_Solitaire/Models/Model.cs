@@ -28,13 +28,13 @@ namespace _11bugs.Model
         {
 			timer = new System.Timers.Timer(3000);
 			timer.Elapsed += OnTimedEvent;
-			timer.AutoReset = false; // Garante que o evento ocorra apenas uma vez
+            timer.AutoReset = true;
 			timer.Enabled = true;
 		}
 
 		private void OnTimedEvent(Object source, ElapsedEventArgs e)
 		{
-			EstadoAtualizado?.Invoke(new Piles(1));
+			EstadoAtualizado?.Invoke(new Piles(true));
 		}
 
 		// Carregar definicoes

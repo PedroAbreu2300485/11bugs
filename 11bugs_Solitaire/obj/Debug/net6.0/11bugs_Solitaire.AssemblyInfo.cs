@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("11bugs_Solitaire")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75fc0a244a810741d99be179b7640fcd237a1568")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f480a8cf6ccb6c1a9ce030c77b27ca7b7a4a78f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("11bugs_Solitaire")]
 [assembly: System.Reflection.AssemblyTitleAttribute("11bugs_Solitaire")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
