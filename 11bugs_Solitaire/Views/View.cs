@@ -30,21 +30,18 @@ namespace _11bugs.View
 
 		private GraphicsDeviceManager _graphics;
 		private SpriteBatch _spriteBatch;
-		private Settings settings = new Settings();
-		private Cards cards = new Cards();
+		private Texture2D overlayTexture;
+
+		private MouseState _previousMouseState;
 		private Board board;
 
-		private Texture2D _image;
 		private Vector2 _imageScale;
 
 		public View(Board board = null)
 		{
 			Controller.Controller controller = new Controller.Controller(this);
 
-			if(board == null)
-				this.board = new Board(0);
-			else
-				this.board = board;
+			this.board = new Board();
 
 			_graphics = new GraphicsDeviceManager(this);
 			Content.RootDirectory = "Content";
@@ -65,12 +62,17 @@ namespace _11bugs.View
 			_graphics.IsFullScreen = false;
 			_graphics.ApplyChanges();
 
+			_previousMouseState = Mouse.GetState();
+
 			base.Initialize();
 		}
 
 		protected override void LoadContent()
 		{
 			_spriteBatch = new SpriteBatch(GraphicsDevice);
+
+			overlayTexture = new Texture2D(GraphicsDevice, 1, 1);
+			overlayTexture.SetData(new[] { Color.White });
 
 			_imageScale = new Vector2(100f / 79, 150f / 123);
 			board.CardsImages.Add(Cards.Place, Content.Load<Texture2D>(@"SemCarta\posicao"));
@@ -144,6 +146,17 @@ namespace _11bugs.View
 			if(GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
 				Exit();
 
+			MouseState currentMouseState = Mouse.GetState();
+			if(_previousMouseState.LeftButton == ButtonState.Pressed && currentMouseState.LeftButton == ButtonState.Released)
+			{
+				//Carta cartaClicada = board.VerificarCliqueCarta(mouseState.Position);
+				//if(cartaClicada != null)
+				//{
+				//	CartaClicada?.Invoke(cartaClicada); 
+				//}
+			}
+
+			_previousMouseState = currentMouseState;
 			base.Update(gameTime);
 		}
 
@@ -153,7 +166,7 @@ namespace _11bugs.View
 
 			_spriteBatch.Begin();
 
-			board.Draw(_spriteBatch, _imageScale, Color.White);
+			board.Draw(_spriteBatch, _imageScale, Color.White, overlayTexture);
 
 			_spriteBatch.End();
 
@@ -173,7 +186,7 @@ namespace _11bugs.View
 
 		internal void EstadoAtualizado(Piles piles)
 		{
-			board.piles = piles;
+			board.SetPiles(piles);
 		}
 
 	}

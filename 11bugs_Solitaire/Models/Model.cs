@@ -28,7 +28,7 @@ namespace _11bugs.Model
         {
 			timer = new System.Timers.Timer(3000);
 			timer.Elapsed += OnTimedEvent;
-            timer.AutoReset = true;
+            timer.AutoReset = false;
 			timer.Enabled = true;
 		}
 
