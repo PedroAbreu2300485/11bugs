@@ -26,7 +26,7 @@ namespace _11bugs.Model
 
         public Model()
         {
-			timer = new System.Timers.Timer(6000);
+			timer = new System.Timers.Timer(3000);
 			timer.Elapsed += OnTimedEvent;
 			timer.AutoReset = false; // Garante que o evento ocorra apenas uma vez
 			timer.Enabled = true;

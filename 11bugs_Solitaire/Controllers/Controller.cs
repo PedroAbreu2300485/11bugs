@@ -21,7 +21,6 @@ namespace _11bugs.Controller
 
         public Controller(View.View view)
         {
-            
 			this.view = view;
 			model = new Model.Model();
 
