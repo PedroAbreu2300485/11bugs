@@ -28,7 +28,7 @@ namespace _11bugs.Model
 
         public event Notificar EstatisticasGravadas;
 
-        private Configuracoes configuracoes;
+        private Settings configuracoes;
 
         public Model()
         {
