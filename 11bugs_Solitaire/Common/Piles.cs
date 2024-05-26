@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _11bugs.Common
 {
-	internal class Piles
+	internal class Piles : IPiles
 	{
 		public List<(Card card, bool isSelected)> Pile1 { get; set; }
 		public List<(Card card, bool isSelected)> Pile2 { get; set; }

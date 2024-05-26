@@ -8,7 +8,7 @@ namespace _11bugs.Views
 {
 	internal class Board
 	{
-		public Piles piles = new Piles();
+		public IPiles piles = new Piles();
 		public Dictionary<Card, Texture2D> CardsImages = new Dictionary<Card, Texture2D>();
 		private Dictionary<Card, Microsoft.Xna.Framework.Rectangle> cardsPos;
 
@@ -39,7 +39,7 @@ namespace _11bugs.Views
 			piles.SpadesPile = Card.Spades;
 		}
 
-		public void SetPiles(Piles piles)
+		public void SetPiles(IPiles piles)
 		{
 			this.piles = piles;
 		}

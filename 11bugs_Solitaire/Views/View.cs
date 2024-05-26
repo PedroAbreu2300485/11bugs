@@ -181,7 +181,7 @@ namespace _11bugs.View
 			Console.WriteLine("NovoJogoCriado");
 		}
 
-		internal void EstadoAtualizado(Piles piles)
+		internal void EstadoAtualizado(IPiles piles)
 		{
 			board.SetPiles(piles);
 		}
