@@ -95,7 +95,7 @@ namespace _11bugs.Model
 
         }
 
-        internal void CartaClicada(Piles piles, List<(Cards card, bool isSelected)> cartas, Cards card)
+        internal void CartaClicada(Piles piles, List<(Card card, bool isSelected)> cartas, Card card)
         {
             // card contem a carta que foi cicada/largada
             Console.WriteLine($"Carta clicada: {card}");
@@ -132,7 +132,7 @@ namespace _11bugs.Model
 
         }
 
-        internal void CartaLargada(Piles piles, List<(Cards card, bool isSelected)> cartas, Cards card)
+        internal void CartaLargada(Piles piles, List<(Card card, bool isSelected)> cartas, Card card)
         {
             // Implementação da lógica de largar uma carta
             Console.WriteLine($"Carta a ser largada: {card}");
