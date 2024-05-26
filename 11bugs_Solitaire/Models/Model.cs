@@ -10,6 +10,7 @@ using System.Timers;
 using System.IO;
 using System.Text.Json;
 using _11bugs.Views;
+using System.Xml.Serialization;
 
 namespace _11bugs.Model
 {
@@ -48,30 +49,33 @@ namespace _11bugs.Model
         {
             Console.WriteLine("Carrega definicoes");
 
-            try
-            {
-                string filePath = "configuracoes.json"; // Caminho do arquivo de configuração
-                if (File.Exists(filePath))
-                {
-                    string jsonString = File.ReadAllText(filePath);
-                    configuracoes = JsonSerializer.Deserialize<Configuracoes>(jsonString);
-                    Console.WriteLine("Definições carregadas com sucesso.");
+            //try
+            //{
+            //    string filePath = "configuracoes.json"; // Caminho do arquivo de configuração
+            //    if(File.Exists(filePath))
+            //    {
+            //        string jsonString = File.ReadAllText(filePath);
+            //        configuracoes = JsonSerializer.Deserialize<Configuracoes>(jsonString);
+            //        Console.WriteLine("Definições carregadas com sucesso.");
 
-                    // Notifica os subscritores de que as definições foram carregadas
-                    DefinicoesCarregadas?.Invoke();
-                }
-                else
-                {
-                    Console.WriteLine("Arquivo de definições não encontrado.");
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Erro ao carregar definições: {ex.Message}");
-            }
+            //        // Notifica os subscritores de que as definições foram carregadas
+            //        DefinicoesCarregadas?.Invoke();
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Arquivo de definições não encontrado.");
+            //    }
+            //}
+            //catch(Exception ex)
+            //{
+            //    Console.WriteLine($"Erro ao carregar definições: {ex.Message}");
+            //}
         }
 
-        internal void CriarNovoJogo(Piles piles)
+        internal void CriarNovoJogo()
+        { }
+
+		internal void CriarNovoJogo(Piles piles)
         {
             Console.WriteLine("Cria novo jogo");
 
@@ -84,6 +88,11 @@ namespace _11bugs.Model
 
             // Atualiza o estado do tabuleiro para os subscritores
             EstadoAtualizado?.Invoke(piles);
+        }
+
+        internal void CartaClicada(Card card)
+        {
+
         }
 
         internal void CartaClicada(Piles piles, List<(Cards card, bool isSelected)> cartas, Cards card)
@@ -118,6 +127,11 @@ namespace _11bugs.Model
 
         }
 
+        internal void CartaLargada(int carta)
+        {
+
+        }
+
         internal void CartaLargada(Piles piles, List<(Cards card, bool isSelected)> cartas, Cards card)
         {
             // Implementação da lógica de largar uma carta
@@ -137,8 +151,10 @@ namespace _11bugs.Model
                 Console.WriteLine($"Carta {card} não pode ser selecionada.");
             }
         }
-
-        internal void GravaJogo(Piles piles)
+        internal void GravaJogo()
+        {
+        }
+		internal void GravaJogo(Piles piles)
         {
             Console.WriteLine("A gravar jogo...");
             try
@@ -153,8 +169,10 @@ namespace _11bugs.Model
                 Console.WriteLine($"Erro ao gravar o jogo: {ex.Message}");
             }
         }
-
-        internal void AbreJogo(Piles piles)
+        internal void AbreJogo()
+        {
+        }
+		internal void AbreJogo(Piles piles)
         {
             Console.WriteLine("A abrir jogo...");
             try

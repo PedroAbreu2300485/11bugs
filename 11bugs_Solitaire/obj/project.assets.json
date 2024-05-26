@@ -102,32 +102,37 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Pedo Abreu\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\bruno\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PEDRO\\U Aberta\\Disciplinas\\2Semestre\\Laboratório de Desenvolvimento de Software\\11bugs\\11bugs_Solitaire\\11bugs_Solitaire.csproj",
+      "projectUniqueName": "D:\\OneDrive - Universidade Aberta\\_ 3 - Semestre 2\\LDS - Lab Desenvolvimento Software\\11bugs\\11bugs_Solitaire\\11bugs_Solitaire.csproj",
       "projectName": "11bugs_Solitaire",
-      "projectPath": "C:\\PEDRO\\U Aberta\\Disciplinas\\2Semestre\\Laboratório de Desenvolvimento de Software\\11bugs\\11bugs_Solitaire\\11bugs_Solitaire.csproj",
-      "packagesPath": "C:\\Users\\Pedo Abreu\\.nuget\\packages\\",
-      "outputPath": "C:\\PEDRO\\U Aberta\\Disciplinas\\2Semestre\\Laboratório de Desenvolvimento de Software\\11bugs\\11bugs_Solitaire\\obj\\",
+      "projectPath": "D:\\OneDrive - Universidade Aberta\\_ 3 - Semestre 2\\LDS - Lab Desenvolvimento Software\\11bugs\\11bugs_Solitaire\\11bugs_Solitaire.csproj",
+      "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
+      "outputPath": "D:\\OneDrive - Universidade Aberta\\_ 3 - Semestre 2\\LDS - Lab Desenvolvimento Software\\11bugs\\11bugs_Solitaire\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Pedo Abreu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
+        "D:\\OneDrive - slice.pt\\GIT\\EdeiaLab.Aparelhos.HL7Parser": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -176,7 +181,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
