@@ -27,11 +27,11 @@ namespace _11bugs.Controller
 			model = new Model.Model();
 
 			CarregarDefinicoes += model.CarregarDefinicoes;
-			CriarNovoJogo += model.CriarNovoJogo;
-			CartaClicada += model.CartaClicada;
-			CartaLargada += model.CartaLargada;
-			GravaJogo += model.GravaJogo;
-			AbreJogo += model.AbreJogo;
+			//CriarNovoJogo += model.CriarNovoJogo;
+			//CartaClicada += model.CartaClicada;
+			//CartaLargada += model.CartaLargada;
+			//GravaJogo += model.GravaJogo;
+			//AbreJogo += model.AbreJogo;
 			GravaEstatistica += model.GravaEstatistica;
 
 			model.DefinicoesCarregadas += view.DefinicoesCarregadas;
@@ -43,8 +43,8 @@ namespace _11bugs.Controller
 
 			view.PedirDefinicoes += model.PedirDefinicoes; 
 
-			view.CartaClicada += model.CartaClicada;
-			view.CartaLargada += model.CartaLargada;
+			//view.CartaClicada += model.CartaClicada;
+			//view.CartaLargada += model.CartaLargada;
 
 			view.InterfaceDesenhada += InterfaceDesenhada;
 			view.NovoJogoDesenhado += NovoJogoDesenhado;

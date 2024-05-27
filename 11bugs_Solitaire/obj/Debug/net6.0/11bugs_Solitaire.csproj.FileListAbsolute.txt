@@ -291,3 +291,4 @@ C:\Users\almei\OneDrive\Documents\GitHub\11bugs\11bugs_Solitaire\obj\Debug\net6.
 C:\Users\almei\OneDrive\Documents\GitHub\11bugs\11bugs_Solitaire\obj\Debug\net6.0\11bugs_Solitaire.genruntimeconfig.cache
 C:\Users\almei\OneDrive\Documents\GitHub\11bugs\11bugs_Solitaire\obj\Debug\net6.0\ref\11bugs_Solitaire.dll
 D:\OneDrive - Universidade Aberta\_ 3 - Semestre 2\LDS - Lab Desenvolvimento Software\11bugs\11bugs_Solitaire\bin\Debug\net6.0\Content\Frentes\Paus_5 - Cópia.xnb
+C:\Users\almei\OneDrive\Documents\GitHub\11bugs\11bugs_Solitaire\bin\Debug\net6.0\Content\Frentes\Paus_5 - Cópia.xnb

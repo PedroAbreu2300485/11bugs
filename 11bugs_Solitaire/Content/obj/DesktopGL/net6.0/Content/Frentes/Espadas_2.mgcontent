@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/Frentes/Espadas_2.png</SourceFile>
-  <SourceTime>2024-05-26T08:31:31.1554667+01:00</SourceTime>
-  <DestFile>D:/OneDrive - Universidade Aberta/_ 3 - Semestre 2/LDS - Lab Desenvolvimento Software/11bugs/11bugs_Solitaire/Content/bin/DesktopGL/Content/Frentes/Espadas_2.xnb</DestFile>
-  <DestTime>2024-05-26T08:31:57.0033159+01:00</DestTime>
+  <SourceFile>C:/Users/almei/OneDrive/Documents/GitHub/11bugs/11bugs_Solitaire/Content/Frentes/Espadas_2.png</SourceFile>
+  <SourceTime>2024-05-27T13:21:17.4994204+01:00</SourceTime>
+  <DestFile>C:/Users/almei/OneDrive/Documents/GitHub/11bugs/11bugs_Solitaire/Content/bin/DesktopGL/Content/Frentes/Espadas_2.xnb</DestFile>
+  <DestTime>2024-05-27T16:31:05.5069804+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T12:44:56+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

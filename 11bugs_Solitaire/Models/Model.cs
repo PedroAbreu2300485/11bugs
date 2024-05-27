@@ -44,36 +44,33 @@ namespace _11bugs.Model
 			EstadoAtualizado?.Invoke(new Piles(true));
 		}
 
-		// Carregar definicoes
-		internal void CarregarDefinicoes()
+        // Carregar definições
+        internal void CarregarDefinicoes()
         {
             Console.WriteLine("Carrega definicoes");
 
-            //try
-            //{
-            //    string filePath = "configuracoes.json"; // Caminho do arquivo de configuração
-            //    if(File.Exists(filePath))
-            //    {
-            //        string jsonString = File.ReadAllText(filePath);
-            //        configuracoes = JsonSerializer.Deserialize<Configuracoes>(jsonString);
-            //        Console.WriteLine("Definições carregadas com sucesso.");
+            try
+            {
+                string filePath = "configuracoes.json"; // Caminho do ficheiro de configuração
+                if(File.Exists(filePath))
+                {
+                    string jsonString = File.ReadAllText(filePath);
+                    configuracoes = JsonSerializer.Deserialize<Settings>(jsonString);
+                    Console.WriteLine("Definições carregadas com sucesso.");
 
-            //        // Notifica os subscritores de que as definições foram carregadas
-            //        DefinicoesCarregadas?.Invoke();
-            //    }
-            //    else
-            //    {
-            //        Console.WriteLine("Arquivo de definições não encontrado.");
-            //    }
-            //}
-            //catch(Exception ex)
-            //{
-            //    Console.WriteLine($"Erro ao carregar definições: {ex.Message}");
-            //}
+                    // Notifica os utilizadores de que as definições foram carregadas
+                    DefinicoesCarregadas?.Invoke();
+                }
+                else
+                {
+                    Console.WriteLine("Arquivo de definições não encontrado.");
+                }
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine($"Erro ao carregar definições: {ex.Message}");
+            }
         }
-
-        internal void CriarNovoJogo()
-        { }
 
 		internal void CriarNovoJogo(Piles piles)
         {
@@ -83,16 +80,11 @@ namespace _11bugs.Model
             piles = new Piles(false); // Passa false para inicializar o jogo em seu estado inicial padrão
             Console.WriteLine("Novo jogo inicializado.");
 
-            // Notifica os subscritores de que um novo jogo foi criado
+            // Notifica os utilizadores de que um novo jogo foi criado
             NovoJogoCriado?.Invoke();
 
             // Atualiza o estado do tabuleiro para os subscritores
             EstadoAtualizado?.Invoke(piles);
-        }
-
-        internal void CartaClicada(Card card)
-        {
-
         }
 
         internal void CartaClicada(Piles piles, List<(Card card, bool isSelected)> cartas, Card card)
@@ -104,7 +96,7 @@ namespace _11bugs.Model
             // Verificar se a carta pode ser selecionada
             var cartaSelecionada = cartas.FirstOrDefault(c => c.card == card);
 
-            if (cartaSelecionada.card != null && cartaSelecionada.isSelected == false)
+            if (cartaSelecionada.isSelected == false)
             {
                 // Atualizar o estado da carta para indicar que foi selecionada
                 cartaSelecionada.isSelected = true;
@@ -127,18 +119,13 @@ namespace _11bugs.Model
 
         }
 
-        internal void CartaLargada(int carta)
-        {
-
-        }
-
         internal void CartaLargada(Piles piles, List<(Card card, bool isSelected)> cartas, Card card)
         {
             // Implementação da lógica de largar uma carta
             Console.WriteLine($"Carta a ser largada: {card}");
             var cartaSelecionada = cartas.FirstOrDefault(c => c.card == card);
 
-            if (cartaSelecionada.card != null && cartaSelecionada.isSelected == true)
+            if (cartaSelecionada.isSelected == true)
             {
                 // Atualizar o estado da carta para indicar que foi largada
                 cartaSelecionada.isSelected = false;
@@ -151,9 +138,7 @@ namespace _11bugs.Model
                 Console.WriteLine($"Carta {card} não pode ser selecionada.");
             }
         }
-        internal void GravaJogo()
-        {
-        }
+
 		internal void GravaJogo(Piles piles)
         {
             Console.WriteLine("A gravar jogo...");
@@ -169,9 +154,7 @@ namespace _11bugs.Model
                 Console.WriteLine($"Erro ao gravar o jogo: {ex.Message}");
             }
         }
-        internal void AbreJogo()
-        {
-        }
+
 		internal void AbreJogo(Piles piles)
         {
             Console.WriteLine("A abrir jogo...");
